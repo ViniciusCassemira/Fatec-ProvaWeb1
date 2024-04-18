@@ -1,0 +1,45 @@
+img {
+    width: 100px;
+}
+
+h1{
+    margin: 2%;
+}
+
+table{
+    border-collapse: collapse;
+    -webkit-border-radius: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    margin-left:10%;
+    width: 80%;
+    
+}
+
+thead tr{
+    text-align:left;
+    padding: 2%;
+}
+
+td, th{
+    padding: 8px;
+}
+
+thead tr th{
+    background-color:rgb(80, 80, 255);
+    color:white;
+}
+
+tr{
+    background-color: #aaa;
+}
+
+.zebra{
+    background-color: rgb(150, 150, 150);
+}
+
+tbody tr:hover{
+    background-color: orangered;
+    transition: background-color 0.3s;
+}

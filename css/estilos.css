@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background:rgb(80, 80, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: #ccc;
+}
+nav{
+    display: flex;
+    gap:20px;
+}
+nav a{
+
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo_cima{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1%;
+    gap: 20px;
+}
+
+.conteudo_cima_texto_topico{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 5px;
+    border-radius: 6px;
+    border:none;
+    background-color: rgb(139, 139, 255);
+}
+
+button:hover{
+    background-color: rgb(80, 80, 255);
+    transition: background-color 0.3s;
+}
+
+figure{
+    padding: 5px;
+    max-width:25%;
+    margin:1%;
+    text-align:center;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    
+}
+.conteudo_baixo img{
+    width: 300px;
+    height: 200px;
+}
+figcaption{
+    border-radius: 4px;
+    background-color: rgb(80, 80, 255);
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(80, 80, 255);
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}

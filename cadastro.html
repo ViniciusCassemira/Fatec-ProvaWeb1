@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilosCadastro.css">
+    <link rel="shortcut icon" href="/media/img/favicon.ico">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="cadastro.html">Cadastro</a>
+        </nav> 
+    </header>
+    <main>
+        <h1>Área de cadastro</h1>
+
+        <form action="">
+            <fieldset>
+                <legend>Complete com os seus dados</legend>
+
+                <div class="bloco_linha">
+                    <div class="bloco_grupo">
+                        <label for="inome">Nome</label>
+                        <input type="text" id="inome" placeholder="Nome completo" required>
+                    </div>
+                    <div class="bloco_grupo">
+                        <label for="iemail">E-mail</label>
+                        <input type="email" id="iemail" placeholder="Seu melhor e-mail" required>
+                    </div>
+                </div>
+                
+                <div class="bloco_linha">
+                    <div class="bloco_grupo">                        
+                        <label for="icpf">CPF</label>
+                        <input type="number" id="icpf" placeholder="Somente números" required>
+                    </div>
+
+                    <div class="bloco_grupo">
+                        <label for="irg">RG</label>
+                        <input type="number" id="irg" placeholder="Somente números" required>
+                    </div>
+                </div>
+
+                <div class="bloco_linha">
+                    <div>
+                        <label for="inascimento">Data de nascimento</label>
+                        <input type="date" id="idnascimento" required>
+                    </div>
+                    <div>
+                        <label for="itelefone">Telefone</label>
+                        <input type="number" id="itelefone" placeholder="Somente números" required> 
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informações de endereço</legend>
+                
+                <div class="bloco_linha">
+                    <div class="bloco_grupo">
+                        <label for="icep">CEP</label>
+                        <input type="number" id="icep" placeholder="Somente números" required>
+                    </div>
+                    
+                    <div class="bloco_grupo">
+                        <label for="irua">Rua</label>
+                        <input type="text" id="irua" placeholder="Nome da sua rua" required>
+                    </div>  
+                </div>
+                
+                <div class="bloco_linha">
+                    <div class="bloco_grupo">
+                        <label for="inumero">Número</label>
+                        <input type="number" id="inumero" placeholder="Somente números" required>
+                    </div>
+
+                    <div class="bloco_grupo">
+                        <label for="ibairro">Bairro</label>
+                        <input type="text" id="ibairro" placeholder="Nome do seu bairro" required>
+                    </div>
+                </div>
+                
+                <div class="bloco_linha">
+                    <div class="bloco_grupo">
+                        <label for="icidade">Cidade</label>
+                        <input type="text" id="icidade" placeholder="Nome da sua cidade" required>
+                    </div>
+                    <div class="bloco_grupo">
+                        <label for="iestado">Estado</label>
+                        <select id="iestado">
+                            <option selected disabled value="">Selecione</option>
+                            <option>São Paulo</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Minas Gerais</option>
+                            <option>Paraná</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="botao">
+                <button type="submit">Realizar Cadastro</button>
+            </div>  
+        </form>
+    </main>
+    <footer>
+        <address>
+            Rua dos Peixes, nº120 - Jaú - <abbr title="São Paulo, Brasil">SP</abbr>
+        </address>
+    </footer>
+</body>
+</html>
